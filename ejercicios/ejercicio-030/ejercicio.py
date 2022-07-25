@@ -19,7 +19,7 @@ def contar_palabras(frase):
             resultados[palabra] += 1
         else:
             # si no existe, inicializarla
-            resultados[palabra] = 0
+            resultados[palabra] = 1
     return resultados
 
 
