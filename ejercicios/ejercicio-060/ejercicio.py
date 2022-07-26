@@ -10,9 +10,11 @@ def es_par(n):
     """
     return n > 0 and n % 2 == 0
 
-
 def devolver_mayor_par(lista):
-    pass
+    for n in lista:
+       if  es_par (n):
+           mayor=n
+    return mayor
 
 
 # NO BORRAR LAS LINEAS QUE SIGUEN
