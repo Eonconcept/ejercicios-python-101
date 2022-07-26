@@ -12,9 +12,10 @@ def es_primo(n):
 
     # Fijarse si es divisible por los numeros inferiores a si mismo
     for div in range(n-1, 0, -1):
-        if n % div == 0:
+        if n % 2 == 0:
             print(f'{n} no es primo, es divisible por {div}')
             return False
+
     print(f'{n} sí es primo')
     return True
 
